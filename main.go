@@ -2,11 +2,10 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/stundzia/quizzguides/quizzes"
+	"github.com/stundzia/quizzguides/guides"
 )
 
 func main() {
 	fmt.Println("Quizzguides")
-	quizzes.GoroutinesInLoop()
+	guides.MuxVsRWMux()
 }
